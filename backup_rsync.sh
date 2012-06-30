@@ -84,6 +84,11 @@ echo " " ;
 # can make this look better, but it works!  
 # going to put on github
 
+# so it doesn't work on the backup part.  the drive doesn't show up unless I # go to the backup HD through the file browser first hmm.  
+# I"ll have to look into that 06/30/2012
+# I bet if I run it again now it will work
+
+
 
 
 
