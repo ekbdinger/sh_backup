@@ -1,0 +1,36 @@
+LAST UPDATED:  July 8, 2012
+
+so it appears that I should use the following files:
+
+ekb_ftp_rsync.sh   at least every 2 weeks.  It doesn't take long to run, so I can probably run it more frequently.  
+
+backup_rsync.sh     
+	this runs backup and migrate and then rsyncs the bam directory on the server with my local computer.  
+	Lastly, it takes the an rsync of the files on my 1st hard drive and then does an rsync to the second hard drive.
+
+************
+NEXT STEPS:
+*****************
+
+Let's change the directory on backup_rysync.sh to somewhere besides the desktop
+
+
+Also, let's create a proper SQL dump script using drush. It looks like I started one, but I can't remmeber what problems I had with it
+
+
+Also, want to explore the issue with the 2nd harddrive.  see the messages below
+
+--------------------------------------------------------------------------
+--------------------
+Copying all the backup files to the 2nd HD on the Ubuntu Desktop.
+--------------------
+ 
+[sudo] password for paul: 
+sending incremental file list
+rsync: writefd_unbuffered failed to write 4 bytes to socket [sender]: Broken pipe (32)
+rsync: mkdir "/media/Backup/eKB/ubuntu_backup" failed: No such file or directory (2)
+rsync error: error in file IO (code 11) at main.c(595) [Receiver=3.0.7]
+rsync: connection unexpectedly closed (9 bytes received so far) [sender]
+rsync error: error in rsync protocol data stream (code 12) at io.c(601) [sender=3.0.7]
+
+-------------------------------------------------------------

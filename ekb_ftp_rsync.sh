@@ -8,6 +8,9 @@
 # It took 3 hour to backup the 13 GB last night, but less than 10 seconds to check for changes
 # This is going to be a huge time saver
 
+# ran it on July 8, 2012 and it detected the changes that were the new screenshots
+# uploaded to the training_support_issues
+
 echo "This will back up the entire Drupal files directory.  Choose which sites you want to backup.  This backup is typically done every 2 weeks ";
 echo " "
 echo "1:  Just the eKB";

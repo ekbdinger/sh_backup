@@ -7,10 +7,8 @@ echo " ";
 echo "------------------------------------------";
 
 read -p "Enter a username: " name;
-
 # for debugging purposes
 # echo "You entered: $name "
-
 echo " ";
 echo " ";
 read -p "Please enter a password:  " pass;
@@ -33,8 +31,6 @@ echo " ";
 echo " ";
 cd /var/www/pressflow;
 drush ucrt $name --mail=$email --password=$pass;
-
-
 
 
 echo " ";
