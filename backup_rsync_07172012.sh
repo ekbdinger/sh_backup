@@ -89,8 +89,7 @@ case $choice in
 		echo "You can sleep well.  Both sites are backed up."
 		echo "--------------------"
 		echo " "
-
-;;	
+;;
 		
 		
 esac

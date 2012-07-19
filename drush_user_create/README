@@ -1,0 +1,5 @@
+FILES FOR CREATING USERS THROUGH DRUSH
+
+CREATE AND LAST UPDATED ON JULY 12, 2012
+
+loop_user_create.sh is the most important file, but it takes the users_example_file as the default input

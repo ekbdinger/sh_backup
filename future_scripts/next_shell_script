@@ -1,0 +1,29 @@
+
+I want to create a new shell script for installing a new site.  I see the following things that I would include in it.  Posting this on June 12, 2012
+
+drush si --db-url=mysql://root:Dabears34@localhost/d6
+
+drush upwd admin --password="admin"
+
+drush vset site_name 'Mega Menus'
+
+I could add the permission settings as well. 
+
+sudo chgrp www-data modules/
+sudo chgrp www-data themes/
+
+
+
+***********************************
+D7 Options
+**********************************8
+
+Disable toolbar overlay  (maybe some other core modules as well)
+
+Download admin_menu module_filter  (other modules.  Or just have a git repo that I point to)
+
+
+***************************************************************************
+Also, let's not forget about adding the scp to my current backup script.  I should really do that first
+****************************************************************
+
