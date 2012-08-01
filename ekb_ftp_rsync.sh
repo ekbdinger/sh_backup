@@ -31,7 +31,7 @@ case $choice in
 		echo " "
 		echo "Performing an Rsync on the eKB Files directory ";
 		echo " "
-		rsync -e "ssh -p 18765" -aHzvv root@184.154.31.130:/home/ecwknowl/public_html/sites/default/files /home/paul/ecw/ekb/backups/ftp
+		rsync -e "ssh -p 18765" -aHzvv --progress root@184.154.31.130:/home/ecwknowl/public_html/sites/default/files /home/paul/ecw/ekb/backups/ftp
 		echo " "
 		sleep 1
 		echo " " 
@@ -40,7 +40,7 @@ case $choice in
 		echo " "
 		echo "Performing an Rsync on the eKB Files directory ";
 		echo " "
-		rsync -e "ssh -p 18765" -aHzvv root@184.154.31.130:/home/ecwknowl/public_html/pressflow/sites/default/files /home/paul/ecw/pressflow/backups/ftp
+		rsync -e "ssh -p 18765" -aHzvv --progress root@184.154.31.130:/home/ecwknowl/public_html/pressflow/sites/default/files /home/paul/ecw/pressflow/backups/ftp
 		echo " "
 		sleep 1
 		echo "---------------------------------------------------------------------"

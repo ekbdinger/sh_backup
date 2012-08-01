@@ -61,10 +61,10 @@ case $choice in
 		sleep 1
 		echo " "
 		echo "--------------------"
-		echo "Copying all the backup files to the 2nd HD on the Ubuntu Desktop."
+#		echo "Copying all the backup files to the 2nd HD on the Ubuntu Desktop."
 		echo "--------------------"
 		echo " "
-		sudo rsync -azvv /home/paul/Desktop/Backups /media/Backup/eKB/ubuntu_backup
+#		sudo rsync -azvv /home/paul/Desktop/Backups /media/Backup/eKB/ubuntu_backup
 		echo " "
 		echo "--------------------"
 		echo "You can sleep well.  Both sites are backed up."
