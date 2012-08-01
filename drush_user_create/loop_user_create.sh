@@ -4,7 +4,7 @@
 # created 12 accounts for new trainers
 
 # for user in $list
-for email in `cat /home/paul/Desktop/drush_user_create/users_example_file`
+for email in `cat /home/paul/shell_scripts/drush_user_create/users_example_file`
    do
       	echo "Their email is $email"
       	sleep 1
